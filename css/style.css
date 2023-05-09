@@ -12,6 +12,42 @@ body {
     font-family: 'Inter',sans-serif;
     font-size: 1.5rem;
 }
-h1 {
-    margin:10px ;
+header {
+    margin:10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.3px solid #aba8a8;
+    margin-bottom: 40px;
+
 }
+header p {
+    font-size: 16px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 14px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+}
+
+nav ul li a:hover {
+    color: rgb(77, 179, 77);
+    transition: all 2ms ease-in-out;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 16px 0px;
+    border-top: 0.3px solid #aba8a8;
+}
+ footer p {
+    font-size: 16px;
+ }
